@@ -1,0 +1,8 @@
+huggingface_hub
+h5py
+opencv-python
+matplotlib
+numpy
+zipfile
+tempfile
+pathlib
