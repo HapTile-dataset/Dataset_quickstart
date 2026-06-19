@@ -20,17 +20,17 @@ pip install -r requirements.txt
 ### 3. Run the quickstart script
 
 ```bash
-python quickstart.py
+python quickstart.py --task fold_Tshirt.zip --frame 150
 ```
 
-This downloads the default task (`fold_Tshirt`) from Hugging Face, extracts it, and displays the front camera, wrist camera, tactile frame, and action curves for a single frame.
+This downloads the default task (`fold_Tshirt`) from Hugging Face, extracts it to `haptile_data` folder, and displays the front camera, wrist camera, tactile frame, and action curves for a single frame.
 
 ### Options
 
 | Argument | Default | Description |
 |---|---|---|
 | `--task` | `fold_Tshirt.zip` | Task zip to download from the dataset |
-| `--frame` | `50` | Frame index to visualise |
+| `--frame` | `150` | Frame index to visualise |
 
 `--task` can be one of the following:
 

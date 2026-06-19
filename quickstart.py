@@ -23,7 +23,7 @@ import argparse
 REPO_ID = "HapTile2026/HapTile"
 
 task_name = "fold_Tshirt.zip" # task to download from the dataset
-frame_num = 50  # default frame index to visualise
+frame_num = 150  # default frame index to visualise
 
 parser = argparse.ArgumentParser(description="HapTile quick start")
 parser.add_argument("--task", type = str, default= task_name)
